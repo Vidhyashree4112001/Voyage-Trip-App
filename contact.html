@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Traverse</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <a href="/" class="logo"><img src="image/Voyage_new.png" alt=""></a>
+    
+            <div class="hamburger">
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line"></span>
+            </div>
+    
+            <div class="nav__link hide">
+              <a href="index.html">home</a>
+              <a href="packages.html">about</a>
+              <a href="contact.html">contact</a>
+              <a href="events.html">blog</a>
+            </div>
+          </nav>
+        </header>
+
+
+       <!-- ----CONTACT US FORM -->
+       <section class="contactus">
+        <center>
+            <h1 class="contant-head">CONTACT US</h1>
+            <p class="contact-para">Feel free to reach out to us through our convenient contact form for any inquiries
+                or assistance you may need.</p>
+        </center>
+
+        <div class="contact">
+
+            <div class="our-office-s1">
+                <h1>Our office</h1>
+                <hr>
+                <div class="call">
+                    <i class="fa-solid fa-phone" style="color: #ffba7a;"></i>
+                    <p>+91 9988776655</p>
+                </div>
+
+                <p>info@voyagetrip.com</p>
+                <p>Voyage your destination partner</p>
+                <br>
+                <p>34 Bree Street</p>
+                <p>12th Floor,The Terraces</p>
+                <p>Cape Town ,Chennai</p>
+                <p>8000</p>
+            </div>
+            <div class="our-office-s2">
+                <h1>Say hello</h1>
+                <hr>
+
+                <input type="text" placeholder="Name"><br>
+                <input type="number" placeholder="Telephone"><br>
+                <input type="email" placeholder="Email"><br>
+                <input type="text" placeholder="Comment"><br><br>
+                <button>Submit</button>
+            </div>
+            <div class="our-office-s3">
+                <h1>Keep Connected</h1>
+                <hr>
+                <div class="socialmedia1">
+                      <i class="fa-brands fa-instagram" style="color: #fdbc72;"></i>
+                    <p>Instagram</p></div>
+              
+                <div class="socialmedia2">
+                    <i class="fa-brands fa-twitter" style="color:
+                    #f0ca8a;"></i>
+                      <p>Twitter</p>
+                </div>
+               
+              
+                <div class="socialmedia3">
+                    <i class="fa-brands fa-facebook" style="color: #eeaf68;"></i>
+                    <p>Facebook</p>
+                </div>
+         
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer Section -->
+    <div class="footer-section">
+        <div class="footer-section1">
+            <img src="image/Voyage_new.png" alt="">
+            <p>Start your destination point from Voyage</p>
+            <p style="font-size: 10px;color: #b30b36;">Your Destination Partner</p><br>
+    
+            <p style="color: #b30b36;">&copy; Voyage 2024</p>
+        </div>
+    </div>
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+    const navLink = document.querySelector('.nav__link');
+    
+    hamburger.addEventListener('click', () => {
+      navLink.classList.toggle('hide');
+    })
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>
